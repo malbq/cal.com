@@ -343,6 +343,7 @@ export const ComponentForField = ({
         placeholder={field.placeholder}
         readOnly={readOnly}
         name={field.name}
+        label={field.label}
         variant={field.variant}
         value={value as { value: string; optionValue: string }}
         setValue={setValue as (arg: Record<string, string> | string) => void}
